@@ -1,0 +1,88 @@
+body{
+     background:gray;
+     padding: 0;
+     margin: 0;
+}
+/* ------------------->>> MAIN-BAR */
+#main-bar{
+     display:flex;
+     /* border: 1px solid red; */
+     /* use el borde solo para probar */
+     justify-content: space-between;
+     background: white;
+}
+
+.menu-bar-list{
+     display: inline-block;
+     margin: 5px;
+}
+header main nav ol li a{
+     text-decoration: none;
+}
+#header-logo{
+     margin-left:126px;
+}
+.menu-bar{
+     margin-right: 126px;
+     display: flex;
+     align-items: center;
+}
+/* ------------------------>>> trend-ba */
+#trend-bar{
+     background:#0D242D;
+     margin:0;
+     display: flex;
+     justify-content: center;
+}
+.trend-title ul{
+     margin:0px;
+     padding: 5px 40px 5px 0;
+     font-size: 18px;
+     /* text-decoration: #F95300; */
+     /* no se como hacerlo, para que tenga un color diferente en el punto */
+}
+strong{
+     color:white;
+}
+.trend-title{
+     background: #0D242D;
+}
+
+.trend-barContainer{
+     background: #F95300;
+     width: 1200px;
+     display:flex;
+     justify-content: space-between;
+     margin: 0;
+}
+
+h2{
+     margin: 0;
+}
+.trend-searchContainer{
+     display: flex;
+     align-items: center;
+}
+.trend-search{
+     margin-right: 8px;
+     border-radius: 5px;
+}
+
+/* ---------------------------->>> section-bar */
+.sections-bar{
+     background: #F95300;
+     display: flex;
+     justify-content: center;
+}
+.section-barContainer{
+     background: #FF8B00;
+     width: 1200px;
+     margin: 0px;
+     padding: 0px;
+     display: flex;
+     justify-content: space-evenly;
+}
+.section-barContainer li{
+     display: flex;
+     padding: 16px 0;
+}
