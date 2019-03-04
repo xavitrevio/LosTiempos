@@ -1,4 +1,4 @@
 # LosTiempos
-Autor: Hector Trevio
-Derechos reservados
-Licencia MIT
+#Autor: Hector Trevio
+#Derechos reservados
+#Licencia MIT
